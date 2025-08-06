@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SolNova Launcher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 SolNova Memecoin Launcher</h1>
+    <button id="connectWallet">Connect Phantom Wallet</button>
+    <p id="walletAddress" class="wallet-address"></p>
+
+    <form id="launchForm">
+      <input type="text" id="tokenName" placeholder="Token Name" required />
+      <input type="text" id="tokenSymbol" placeholder="Token Symbol" required />
+      <input type="number" id="tokenSupply" placeholder="Total Supply" required />
+      <input type="text" id="tokenImage" placeholder="Image URL (optional)" />
+      <button type="submit">Launch Coin</button>
+    </form>
+
+    <p id="statusMessage"></p>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
